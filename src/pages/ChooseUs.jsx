@@ -1,17 +1,17 @@
 import React from 'react'
-import icon1 from '../assets/images/choose/icons/1.png'
-import icon2 from '../assets/images/choose/icons/2.png'
-import icon3 from '../assets/images/choose/icons/3.png'
-import choose1 from '../assets/images/banner/why-chhose-us.png'
-import dotted2 from '../assets/images/choose/dotted-2.png'
-import dotted1 from '../assets/images/choose/dotted-1.png'
+// import icon1 from '../assets/images/choose/icons/1.png'
+// import icon2 from '../assets/images/choose/icons/2.png'
+// import icon3 from '../assets/images/choose/icons/3.png'
+// import choose1 from '../assets/images/banner/why-chhose-us.png'
+// import dotted2 from '../assets/images/choose/dotted-2.png'
+// import dotted1 from '../assets/images/choose/dotted-1.png'
 import './style.css'
 
 const ChooseUs = () => {
   return (
        
     <div  id="rs-about" className="why-choose-us-bg rs-why-choose pt-120 pb-120 md-pt-75 md-pb-80">
-        <div className="container">
+        {/* <div className="container">
             <div className="row">
                 <div className="col-lg-6 md-pb-60">
                     <div className="sec-title mb-40">
@@ -65,7 +65,7 @@ const ChooseUs = () => {
                    </div> 
                 </div> 
             </div>
-        </div>
+        </div> */}
     </div>
 
   )

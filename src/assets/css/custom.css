@@ -4269,7 +4269,14 @@ body .search-modal .close:hover {
   margin-top: -125px;
   z-index: -111;
 }
-
+.rs-video-wrap .video-item {
+  position: relative;
+  background: url(../images/video/video.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  padding: 280px 0 395px;
+}
 .rs-video-wrap .rs-requset {
   padding: 90px 60px 90px 60px;
   background: #f4f7ff;
@@ -6483,7 +6490,15 @@ body .search-modal .close:hover {
   left: -50px;
   bottom: 150px;
 }
-
+.rs-services-single .services-add {
+  background: url(../images/services/single/contact-phone.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  border-radius: 5px;
+  padding: 50px 35px 53px;
+}
 .rs-services-single .services-add .title {
   font-size: 24px;
   line-height: 42px;
