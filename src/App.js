@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import './assets/css/style.css';
+import './assets/css/responsive.css'
+import './assets/css/rsmenu-main.css'
+import './assets/css/rs-spacing.css'
+import './assets/css/magnific-popup.css'
+import Header from './pages/Header';
+import Banner from './pages/Banner';
+import ChooseUs from './pages/ChooseUs';
+import Services from './pages/Services';
+import ContactUs from './pages/ContactUs';
+import Footer from './pages/Footer';
 
 function App() {
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <!-- Main content Start --> */}
+        <div className="main-content">
+          {/* <Header></Header> */}
+          <Banner></Banner>
+          {/* <ChooseUs></ChooseUs>
+          <Services></Services>
+          <ContactUs></ContactUs>
+          <Footer></Footer> */}
+        </div>
     </div>
   );
 }

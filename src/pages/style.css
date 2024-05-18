@@ -1,0 +1,17 @@
+.why-choose-us-bg {
+    background-image: url('../assets/images/bg/shape_bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 2px solid #F6F7F9;
+}
+
+.contactItems {
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+    padding: 15px 0px !important
+}
+
+.footerIconArea {
+    width: 2rem;
+}
