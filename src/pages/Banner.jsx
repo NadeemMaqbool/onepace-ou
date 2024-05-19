@@ -16,9 +16,9 @@ const Banner = () => {
             
             <div className="banner-content z-index-1">
               <div className="logo-part">
-                <a href="/">
+                {/* <a href="/">
                   <img src={logo} alt="logo" />
-                </a>
+                </a> */}
               </div>
               <span className="sub-text">
                 Websites & Designs that Drive Sales
